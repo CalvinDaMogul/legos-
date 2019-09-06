@@ -15,7 +15,7 @@ namespace legos
                 HairColor = "Blue",
                 HasNose = false,
                 MouthIsOpen = true,
-                NumberOfEyes = 4
+                NumberOfEyes = 3
             };
 
             var fatHead = new FatHead();
