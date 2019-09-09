@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using legos.Minifigures;
+using legos.Minifigures.Parts;
 using System.Text;
 
 namespace legos.minifigures.Parts
@@ -18,12 +20,12 @@ namespace legos.minifigures.Parts
            
         }
 
-        public void Flex()
+        public override void Flex()
         {
             Console.WriteLine("The Yeti torso flexes menacingly with no hands");
         }
 
-        public void Fight()
+        public override void Fight()
         {
             Console.WriteLine("The yeti smacks you with his nubs...");
         }
