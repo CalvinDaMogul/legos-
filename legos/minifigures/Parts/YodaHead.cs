@@ -1,10 +1,11 @@
-﻿using System;
+﻿using legos.minifigures;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace legos.Minifigures.Parts
 {
-    class YodaHead : Head
+    class YodaHead : Head, ITalker
     {
         public bool HasEars { get; private set; }
         public YodaHead()
