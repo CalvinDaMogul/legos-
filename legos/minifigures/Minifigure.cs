@@ -10,4 +10,8 @@ namespace legos.minifigures
         public Head Head { get; set; }
         public Torso Torso { get; set; }
     }
+
+    public class Torso
+    {
+    }
 }
