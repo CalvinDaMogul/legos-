@@ -18,12 +18,19 @@ namespace legos
                 NumberOfEyes = 8
             };
 
-            var Torso = new YetiTorso();
+            var Torso = new torso();
 
             var fatHead = new FatHead();
 
             fatHead.Talk();
             minifigure.Head.Think();
+        }
+    }
+
+    internal class torso
+    {
+        public torso()
+        {
         }
     }
 }
