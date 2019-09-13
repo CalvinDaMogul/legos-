@@ -11,8 +11,8 @@ namespace legos
             var minifigure = new Minifigure();
             minifigure.Head = new YodaHead
             {
-                EyeColor = "Brown",
-                HairColor = "Blue",
+                EyeColor = "Green",
+                HairColor = "Aqua",
                 HasNose = false,
                 MouthIsOpen = true,
                 NumberOfEyes = 8
